@@ -18,4 +18,6 @@ dados_bio <- data.frame(
 # Visualizar o dataframe (opcional)
 print(dados_bio)
 
+# Exportando o dataframe
+write.csv(dados_bio, "dados_bio.csv", row.names = F)
 ################################################################################
